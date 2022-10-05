@@ -50,7 +50,7 @@ API REST para ranqueamento por voto popular de diversas linguagens de programaç
 
 |     Método     |                             URL                            |                                                                      Body                                                                      |
 |:--------------:|:----------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------:|
-|       GET      |     https://enzo-linguagens-api.herokuapp.com/api/list     |                                    Json contendo nome, image(url) e rank de todas as linguagens cadastradas.                                   |
+|       GET      |     https://enzo-linguagens-api.herokuapp.com/api/list     |                                    JSON contendo nome, image(url) e rank de todas as linguagens cadastradas.                                   |
 |      POST      |    https://enzo-linguagens-api.herokuapp.com/linguagens    | {"title":"LUA","image":"https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/lua/lua_256x256.png","ranking":6} |
 |      PATCH     | https://enzo-linguagens-api.herokuapp.com//linguagens/{id} | {"title":"C","image":"https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/c/c_256x256.png"}                   |
 |     DELETE     | https://enzo-linguagens-api.herokuapp.com//linguagens/{id} |                                                                       NO                                                                       |
